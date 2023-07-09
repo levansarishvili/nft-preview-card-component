@@ -129,3 +129,16 @@ body {
   line-height: normal;
   margin-right: 5px;
 }
+
+.nft-card-img:hover {
+  opacity: 0.503021240234375;
+  background: var(--cyan, #00fff8);
+}
+
+.nft-card-header:hover {
+  color: var(--cyan, #00fff8);
+}
+
+.nft-author-name:hover {
+  color: var(--cyan, #00fff8);
+}
