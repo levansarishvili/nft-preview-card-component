@@ -1,7 +1,7 @@
 # Links
 
-- Solution URL: (https://github.com/levani-sarishvili/qr-code-component)
-- Live Site URL: (https://qr-code-component-levani-sarishvili.netlify.app/)
+- Solution URL: (https://github.com/levani-sarishvili/nft-preview-card-component.git)
+- Live Site URL: (https://dashing-axolotl-40ac53.netlify.app/)
 
 # Built with
 
