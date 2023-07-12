@@ -14,6 +14,8 @@ body {
   flex-direction: column;
   flex-shrink: 0;
 
+  position: relative;
+
   border-radius: 15px;
   background: var(--very-dark-blue-card-bg, #15263f);
   box-shadow: 0px 25px 50px 0px rgba(0, 0, 0, 0.1);
@@ -30,6 +32,17 @@ body {
   flex-shrink: 0;
   border-radius: 8px;
   margin-bottom: 24px;
+}
+
+.nft-img-overlay {
+  position: absolute;
+
+  width: 302px;
+  height: 302px;
+  background-color: #00fff8;
+  border-radius: 8px;
+  opacity: 0.503021240234375;
+  background: var(--cyan, #00fff8);
 }
 
 .nft-card-header {
@@ -131,8 +144,8 @@ body {
 }
 
 .nft-card-img:hover {
-  opacity: 0.503021240234375;
-  background: var(--cyan, #00fff8);
+  /* opacity: 0.503021240234375;
+  background: var(--cyan, #00fff8); */
 }
 
 .nft-card-header:hover {
