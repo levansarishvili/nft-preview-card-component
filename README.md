@@ -1,7 +1,7 @@
 # Links
 
 - Solution URL: (https://github.com/levani-sarishvili/nft-preview-card-component.git)
-- Live Site URL: (https://dashing-axolotl-40ac53.netlify.app/)
+- Live Site URL: (https://nft-preview-card-component-sarishvili.netlify.app/)
 
 # Built with
 
