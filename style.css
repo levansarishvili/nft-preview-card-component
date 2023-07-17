@@ -27,7 +27,7 @@ body {
   border-radius: 1.5rem;
   background: hsl(216, 50%, 16%);
   box-shadow: 0 2.5rem 5rem 0 rgba(0, 0, 0, 0.1);
-  max-width: 35rem;
+  max-width: 32.7rem;
   margin: 5rem auto 0 auto;
   padding: 2.4rem;
 }
@@ -44,8 +44,8 @@ body {
   justify-content: center;
   align-items: center;
 
-  width: 30.2rem;
-  height: 30.2rem;
+  width: 27.9rem;
+  height: 27.9rem;
   background-color: #00fff783;
   border-radius: 0.8rem;
   opacity: 0;
@@ -57,7 +57,7 @@ body {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  margin-bottom: 1.6rem;
+  margin-bottom: 1.2rem;
 }
 
 .card__text {
@@ -66,13 +66,13 @@ body {
   font-style: normal;
   font-weight: 300;
   line-height: 2.6rem;
-  margin-bottom: 2.4rem;
+  margin-bottom: 1.6rem;
 }
 
 .card__details {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 2.4rem;
+  margin-bottom: 1.6rem;
 }
 
 .card__details__first {
@@ -91,7 +91,7 @@ body {
 
 .card__details__first__price {
   color: hsl(178, 100%, 50%);
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -103,7 +103,8 @@ body {
 
 .card__details__second__text {
   color: hsl(215, 51%, 70%);
-  font-size: 1.6rem;
+  font-size: 1.5rem;
+  /* mobile */
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -129,7 +130,7 @@ body {
 
 .card__author__text {
   color: hsl(215, 51%, 70%);
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -138,7 +139,7 @@ body {
 
 .card__author__name {
   color: hsl(0, 0%, 100%);
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -159,4 +160,41 @@ body {
 .card__author__name:hover {
   color: hsl(178, 100%, 50%);
   cursor: pointer;
+}
+
+/* || RESPONSIVE MEDIA QUERIES */
+
+@media screen and (min-width: 375px) {
+  .card {
+    max-width: 35rem;
+  }
+
+  .card__img__overlay {
+    width: 30.2rem;
+    height: 30.2rem;
+  }
+
+  .card__header {
+    margin-bottom: 1.6rem;
+  }
+
+  .card__text {
+    margin-bottom: 2.4rem;
+  }
+
+  .card__details {
+    margin-bottom: 2.4rem;
+  }
+
+  .card__details__first__price {
+    font-size: 1.6rem;
+  }
+
+  .card__details__second__text {
+    font-size: 1.6rem;
+  }
+
+  .card__author__name {
+    font-size: 1.6rem;
+  }
 }
