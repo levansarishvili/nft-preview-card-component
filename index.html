@@ -34,20 +34,15 @@
     <title>Frontend Mentor | NFT preview card component</title>
   </head>
   <body>
-    <section class="nft-card">
+    <section class="card">
       <img
-        class="nft-card-img"
+        class="card__img"
         src="/images/image-equilibrium.jpg"
         alt="equilibrium photo"
       />
 
-      <div class="nft-img-overlay">
-        <svg
-          class="view-icon"
-          width="48"
-          height="48"
-          xmlns="http://www.w3.org/2000/svg"
-        >
+      <div class="card__img__overlay">
+        <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
           <g fill="none" fill-rule="evenodd">
             <path d="M0 0h48v48H0z" />
             <path
@@ -59,12 +54,13 @@
         </svg>
       </div>
 
-      <h1 class="nft-card-header">Equilibrium #3429</h1>
-      <p class="nft-card-text">
+      <h1 class="card__header">Equilibrium #3429</h1>
+      <p class="card__text">
         Our Equilibrium collection promotes balance and calm.
       </p>
-      <div class="nft-details">
-        <div class="nft-price">
+
+      <div class="card__details">
+        <div class="card__details__first">
           <svg
             class="ethereum-icon"
             width="11"
@@ -76,9 +72,9 @@
               fill="#00FFF8"
             />
           </svg>
-          <p class="nft-price">0.041 ETH</p>
+          <p class="card__details__first__price">0.041 ETH</p>
         </div>
-        <div class="nft-offer-time">
+        <div class="card__details__second">
           <svg
             class="clock-icon"
             width="17"
@@ -90,19 +86,19 @@
               fill="#8BACD9"
             />
           </svg>
-          <p class="nft-offer-time-text">3 days left</p>
+          <p class="card__details__second__text">3 days left</p>
         </div>
       </div>
-      <div class="line"></div>
+      <div class="card__line"></div>
 
-      <div class="nft-author">
+      <div class="card__author">
         <img
-          class="nft-author-img"
+          class="card__author__img"
           src="/images/image-avatar.png"
           alt="author avatar"
         />
-        <p class="nft-author-text">Creation of</p>
-        <p class="nft-author-name">Jules Wyvern</p>
+        <p class="card__author__text">Creation of</p>
+        <p class="card__author__name">Jules Wyvern</p>
       </div>
     </section>
   </body>
